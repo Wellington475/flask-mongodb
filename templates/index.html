@@ -1,0 +1,34 @@
+{% extends "base/layout.html" %}
+{% block content %}
+<body>
+	<div class="master">
+		<div class="banner">
+			<a href="/admin">
+				<div class="buttom">
+					Admin
+				</div>
+			</a>
+			<h1>
+				Dia de Programador
+			</h1>
+		</div>
+		{% for rs in user %}
+		<div class="content">
+			<div class="content-conteiner">
+				<div class="box-post">
+					<div class="title-post">
+						{{ rs.title }}
+					</div>
+					<div class="date-post">
+						{{ rs.date | datetime }}
+					</div>
+					<div class="count-post">
+						{{ rs.message }}
+					</div>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</body>
+{% endblock %}

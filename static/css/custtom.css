@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Cabin);
+
+*{
+	box-sizing: border-box;
+	margin: 0px;
+}
+body{
+	background: #DDD;
+}
+a{
+	text-decoration: none;
+}
+input[type=text]{
+	border: 1px solid #20071D;
+	border-left :  4px solid #20071D;
+	border-radius: 5px;
+	color: #000000;
+	font-size: 20px;
+	height: 40px;
+	padding-left: 2%;
+	outline: 0px;
+	width:80%;
+}
+input[type=submit]{
+	background: #20071D;
+	border: 1px solid #20071D;
+	border-radius: 5px;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 20px;
+	height: 40px;
+	margin: 2% auto auto; 
+	outline: 0px;
+	width:80%;
+}
+textarea{
+	border : 1px solid #20071D; 
+	border-left :  4px solid #20071D;
+	border-radius: 5px;
+	height: 200px;
+	font-size: 20px;
+	margin: 2% auto auto;
+	resize: none;
+	width:80%;
+}
+
+.master{
+	height: auto;
+	text-align: center;
+	width: 100%;
+}
+.master .banner{
+	background: #20071D;
+	color: #ffffff;
+	height: 50px;
+	text-align: left;
+	width: 100%;
+}
+.banner h1{
+	font-family: 'Cabin';
+	font-size: 25px;
+	padding: .5% 1%;
+}
+.master .content{
+	height: auto;
+	margin: 0 auto auto;
+	width: 100%;
+}
+.content .box-post{
+	background: #ffffff;
+	box-shadow: 0 0 15px #000000;
+	border-radius: 5px;
+	height: 450px;
+	margin: 4% auto auto;
+	padding-top: 2%;
+	width:50%;
+}
+.box-post table{
+	width:100%;
+}
+.box-post td{
+	font-family: 'Cabin';
+	font-weight: bold;
+	text-align: center;
+}
+.box-post td:nth-child(even){
+	text-align: left;
+	width:80%;
+}

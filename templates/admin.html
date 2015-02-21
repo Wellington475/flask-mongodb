@@ -1,0 +1,46 @@
+{% extends "base/layout-admin.html" %}
+{% block content %}
+<body>
+	<div class="master">
+		<div class="banner">
+			<h1>
+				Dia de Programador
+			</h1>
+		</div>
+		<div class="content">
+			<div class="box-post">
+				<form action="/cad" method="POST">
+				<table>
+					<tr>
+						<td>
+							Title:
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="title">
+						</td>
+					</tr>
+					<tr>	
+						<td valign="top" style="padding-top:1%;">
+								Message:
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<textarea name="message">
+							</textarea>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="width:100%;">
+							<input type="submit" value="Postar">
+						</td>
+					</tr>
+				</table>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+{% endblock %}

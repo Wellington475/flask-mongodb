@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+*{
+	box-sizing: border-box;
+	margin: 0px;
+}
+body{
+	background: #eee;
+}
+a{
+	text-decoration: none;
+}
+.master{
+	height: auto;
+	text-align: center;
+	width: 100%;
+}
+.master .banner{
+	background: linear-gradient(-190deg, rgb(96, 53, 124), rgb(11, 11, 97));
+	background: -moz-linear-gradient(-190deg, rgb(96, 53, 124), rgb(11, 11, 97));
+	background: -o-linear-gradient(-190deg, rgb(96, 53, 124), rgb(11, 11, 97));	
+	background: -webkit-linear-gradient(-190deg, rgb(96, 53, 124), rgb(11, 11, 97));
+	color: #ffffff;
+	height: 250px;
+	width: 100%;
+}
+.banner a .buttom{
+	border: 1px solid #eeeeee;
+	color:#ffffff;
+	cursor: pointer;
+	height: 30px;
+	font-family: 'Ubuntu';
+	float: right;
+	padding-top: .3%;
+	margin-top: 15px;
+	margin-right: 5px;
+	width: 8%;
+}
+.banner a .buttom:hover{
+	text-shadow: 0 0 5px #000000;
+	box-shadow: 0 0 5px #000000;
+}
+.banner h1{
+	font-family: 'Ubuntu';
+	font-size: 45px;
+	padding-top: 5%;
+	text-shadow: 0 0 15px #000000;
+}
+.content{
+	height: auto;
+	margin: 0px auto auto;
+	width: 100%;
+}
+.content .content-conteiner{
+	height: auto;
+	margin: 2% auto 2%;
+	width:70%;
+}
+.box-post{
+	min-height: 350px;
+	background: #ffffff;
+	box-shadow: 0 0 15px #000;
+	margin: 0px auto auto;
+	width: 100%;
+	z-index: 900;
+}
+.title-post{
+	border-bottom: 1px solid #eee;
+	height: 10%;
+	font-family: 'Ubuntu';
+	float: left;
+	font-weight: bold;
+	padding: 5% 5% 2%;
+	text-align: left;
+	width:70%;
+}
+.date-post{
+	border-bottom: 1px solid #eee;
+	height: 10%;
+	font-family: 'Ubuntu';
+	float: left;
+	font-weight: bold;
+	padding: 5% 0% 2%;
+	width:30%;
+}
+.count-post{
+	height: 10%;
+	font-family: 'Ubuntu';
+	float: left;
+	padding: 5% 5% 4%;
+	text-align: left;
+	width:100%;
+}
